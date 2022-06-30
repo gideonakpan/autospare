@@ -1,0 +1,32 @@
+.search {
+	border-radius: 5px;
+	border: 1px solid grey;
+
+}
+.search button {
+	background: #000;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	margin-left: 0;
+}
+.search input {
+	width: 500px;
+	border: none;
+	border-radius: inherit;
+}
+
+
+
+@media only screen and (max-width: 900px) and (min-width: 701px) {
+	.search input {
+	width: 300px;
+	border: none;
+	}
+}
+
+@media only screen  and (max-width: 700px) {
+	.search {
+		display: none;
+	}
+}

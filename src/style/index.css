@@ -1,0 +1,107 @@
+@import './utility.css';
+@import './navbar.css';
+@import './format.css';
+@import './form.css';
+@import './autospare.css';
+@import './animation.css';
+@import './slider.css';
+@import './fontello.css';
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+button {
+	appearance: none;
+	border: none;
+	cursor: pointer;
+}
+
+ul li{
+  list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+body{
+  font-family:'Open Sans', sans-serif;;
+  font-size: .75em;
+}
+#body {
+	background: #f2f2f2;
+}
+.brand-name {
+	font-size: 1.2em;
+}
+.icon-styles {
+	font-size: 18px;
+	position: relative;
+}
+.outline-color {
+	background: blue;
+}
+.advert {
+	font-size: 1.3em;
+}
+.badge {
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	border-radius: 50%;
+	height: 13px;
+	width: 13px;
+	text-align: center;
+	font-size: 8px;
+	background: red;
+	color: #fff;
+}
+.order-btn {
+	border-radius: 5px;
+	color: #fff;
+}
+.order-box {
+
+}
+.order-box img {
+	width: 50px;
+	height: 50px;
+}
+.card {
+	background-color: #ffffff;
+    color: #000000;
+    padding: 1rem;
+    width: 15rem;
+    height: 15rem;
+}
+.card img {
+	width: 150px;
+      height: 150px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+}
+#footer {
+	background: #000;
+}
+.footer_heading {
+	font-size: 18px;
+	font-weight: bolder;
+}
+.footer > div {
+	width: 15rem;
+}
+.footer a {
+	color: #f2f2f2;
+}
+
+@media screen and (max-width: 500px) {
+	.card {
+		align-self: center;
+	}
+	.footer {
+		text-align: center;
+}
+}
